@@ -1,1 +1,1 @@
-# mining-most-influential-locations
+# Mining most influential locations
