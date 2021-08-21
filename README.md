@@ -17,7 +17,9 @@
 
 ## About The Project
 
-This project implements a framework that finds the most influential locations in a spatial region. These locations have a lot of resource allocation applications ( billboards, charging stations etc ). 
+This project implements a framework that finds k most influential locations in a spatial region R for a given k value. These locations have a lot of resource allocation applications ( billboards, charging stations etc ). 
+
+For small value of k and a small spatial region R, I implemented an optimal solution using Group pruning algorithm. For large values of R and k, an approximate solution with better performance is obtained using Greedy Heuristic. 
 
 ### Built With
 
